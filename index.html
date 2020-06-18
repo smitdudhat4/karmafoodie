@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Food~A test going to heaven</title>
+  </head>
+  <body>
+    
+    <!--navbaar--->
+     <!-- Image and text -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!---navbaar img--->
+      <a class="navbar-brand" href="#">
+      <img src="navphoto.jpg" width="40" height="40" class="d-inline-block align-top rounded-circle" alt="" loading="lazy">
+      </a>
+      <!------>
+      <a class="navbar-brand text-warning" href="#">Karma ~ Provide Good Food</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto my-2 mx-auto style=width: 200px;">
+      <li class="nav-item active">
+        <a class="nav-link text-light border-bottom border-warning" href="#">HOME<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link text-light" href="recipe.html">RECIPIES</a>
+      </li>
+      <li class="nav-item mx-2">
+        <a class="nav-link text-light" href="blog.html">OUR BLOGS</a>
+      </li>
+    </ul>
+    <button type="button" class="btn btn-outline-warning" data-toggle="modal" data-target="#loginModal">Login</button>
+    <button type="button" class="btn btn-outline-warning mx-2" data-toggle="modal" data-target="#signupModal">Sign Up</button>
+  </div>
+</nav>
+<!---->
+
+<!---crousel--->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner carousel-fade">
+    <div class="carousel-item active">
+      <img src="cro1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="cro2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="cro3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login to Karma Development</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+         <div class="form-group">
+           <label for="exampleInputEmail1">Email address</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+         </div>
+         <div class="form-group">
+           <label for="exampleInputPassword1">Password</label>
+           <input type="password" class="form-control" id="exampleInputPassword1">
+         </div>
+         <button type="submit" class="btn btn-outline-secondary">Login</button>
+       </form>
+        </div>
+             <div class="modal-footer">
+               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+               <button type="button" class="btn btn-primary">Save changes</button>
+             </div>
+           </div>
+         </div>
+       </div>
+
+<!-- signup Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Sign Up with Karma Development</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword2">Confirm Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword2">
+  </div>
+  <button type="submit" class="btn btn-outline-secondary">Create Account</button>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--------->
+
+  <!---thubnail----->
+  <div class="container">
+  <div class="row mb-2 my-4">
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-danger"><u>Gujarati Dishes</u></strong>
+          <h5 class="mb-0 my-2">World Famous Dish</h5>
+          <p class="card-text mb-auto my-2">Gujarati Dishes is most of hot favourite in west indian part. This Dish is very testy and looking beautiful. example Dal dhokli, dalbhat , Chapati and sabji and side test in papad and drink in chas and water.</p>
+         <button type="button" class="btn btn-danger btn-sm"><a href="#" class="stretched-link text-light text-decoration-none">Back to Top...</a></button>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="gujdish.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-success"><u>Italian Dishes</u></strong>
+          <h5 class="mb-0 my-2">World Famous Dish</h5>
+          <p class="mb-auto my-2">Italian Food Quotes. I am not one to turn down macaroni and cheese, even late at night. If your mother cooks Italian food, why should you go to a restaurant? The cooking standards for Italian food are less demanding than for French.</p>
+          <button type="button" class="btn btn-success btn-sm"><a href="#" class="stretched-link text-light text-decoration-none">Back to Top...</a></button>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="itadish.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!----thubnail 2--->
+  <div class="row mb-2 my-4">
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-warning"><u>Chinese Dishes</u></strong>
+          <h5 class="mb-0 my-2">World Famous Dish</h5>
+          <p class="card-text mb-auto my-2">It's food that I adore above all others. I love Chinese food, like steamed dim sum, and I can have noodles morning, noon and night, hot or cold. I like food that's very simple on the digestive system - I tend to keep it light.</p>
+         <button type="button" class="btn btn-warning btn-sm"><a href="#" class="stretched-link text-light text-decoration-none">Back to Top...</a></button>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="chindish.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <strong class="d-inline-block mb-2 text-primary"><u>Panjabi Dishes</u></strong>
+          <h5 class="mb-0 my-2">World Famous Dish</h5>
+          <p class="mb-auto my-2">A Panjabi dish is type of an indian food. this dish very popular in india. In panjabi dish many tpes of dishes like kajukari, makhi ki roti with sarsoka sak, in drink lassi etc.. Panjabi dish is very testy. Panjabi food dishes is most of in wedding.</p>
+          <button type="button" class="btn btn-success btn-sm"><a href="#" class="stretched-link text-light text-decoration-none">Back to Top...</a></button>
+        </div>
+        <div class="col-auto d-none d-lg-block">
+          <img src="panjadish.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------------->
+
+<!----alret----->
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <div class="alert alert-warning" role="alert mx-4">Do you need more recipes?   <a href="recipe.html" class="alert-link">  Recipies (click here)</a> Thank you!
+  </div>
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<!--------------->
+
+<!----footer----->
+<footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p>© 2020-2021 Karma Food, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
